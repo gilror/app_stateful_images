@@ -13,16 +13,17 @@ Herramientas usadas:
 - Flutter en la versión 3.3.2: Es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones para Google Fuchsia.
 
 [![flutter-VSC.png](https://i.postimg.cc/Jz6cCkH5/flutter-VSC.png)](https://postimg.cc/4Ychzn5Y)
+https://uploads-ssl.webflow.com/5f841209f4e71b2d70034471/60bb4a2e143f632da3e56aea_Flutter%20app%20development%20(2).png
 
 <hr>
 
 # Metodología
 
-- 1. Se creó un proyecto de flutter en visual studio code.
-- 2. Se creó una carpeta en la raíz, llamada assets.
+- 1. Se inicio un nuevo proyecto en VS Code.
+- 2. En la carpeta Raiz se agrego otra llamada Assets.
 - 3. Dentro de la carpeta assets se crearon dos carpetas más, llamadas images y fonts.
-- 4. En la carpeta images se agregarán todas las imagenes que se utilicen en el proyecto.
-- 5. En la carpeta fonts se agregarán todas las fuentes que se usen en el proyecto.
+- 4. EN imagenes, se pasaron todas las "imagenes" que se usarian en el proyecto..
+- 5. Se agregaron fuentes y se configuraron en el pubspect.
 - 6. Dentro de la carpeta lib se creará otra carpeta llamada src en la cual se agregarán todos los archivos .dart que se agreguen, sin contar el main.dart.
 - 7. Se creó un archivo en la carpeta src, llamado card.dart, aquí es donde se agregó el código para la creación de las cards y solo se llamó al archivo en         el main.dart como un import 'package:nombreDelProyecto/src/card.dart
 - 8. Las imagenes que se agregaron para el fondo del appBar y la foto del estudiante, se tendrán que agregar al archivo de pubspec.yaml, ahí es donde se deberá poder la ruta de todas las imagenes que se usen en el código, así como todas las fuentes.
